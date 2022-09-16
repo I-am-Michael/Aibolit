@@ -1,5 +1,31 @@
-body {
-  margin: 0%;
+.font_futura {
+  font-family: 'Futura New';
+}
+h1 {
+  font-family: 'SchoolBook';
+}
+
+header nav a {
+  display: inline-block;
+  padding: 40px 80px 40px 0px;
+}
+#logo {
+  float: left;
+  padding: 19px 10px;
+}
+#headnav {
+}
+.font_futura a:first-of-type {
+  padding: 40px 80px 40px 235px;
+
+}
+label {
+  
+  padding: 27px 0px 27px 293px;
+}
+
+header {
+  margin: 65px 80px 130px;
 }
 #s1 {
   margin: 0px 0px 150px 110px;

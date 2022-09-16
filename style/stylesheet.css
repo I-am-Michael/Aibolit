@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Futura New';
+    src: url('FuturaNewMedium-Reg.eot');
+    src: local('Futura New Medium Reg'), local('FuturaNewMedium-Reg'),
+        url('FuturaNewMedium-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewMedium-Reg.woff2') format('woff2'),
+        url('FuturaNewMedium-Reg.woff') format('woff'),
+        url('FuturaNewMedium-Reg.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura New';
+    src: url('FuturaNewHeavy-Reg.eot');
+    src: local('Futura New Heavy Reg'), local('FuturaNewHeavy-Reg'),
+        url('FuturaNewHeavy-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewHeavy-Reg.woff2') format('woff2'),
+        url('FuturaNewHeavy-Reg.woff') format('woff'),
+        url('FuturaNewHeavy-Reg.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura New';
+    src: url('FuturaNewExtraBold-Reg.eot');
+    src: local('Futura New ExtraBold Reg'), local('FuturaNewExtraBold-Reg'),
+        url('FuturaNewExtraBold-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewExtraBold-Reg.woff2') format('woff2'),
+        url('FuturaNewExtraBold-Reg.woff') format('woff'),
+        url('FuturaNewExtraBold-Reg.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura New';
+    src: url('FuturaNewLight-Reg.eot');
+    src: local('Futura New Light Reg'), local('FuturaNewLight-Reg'),
+        url('FuturaNewLight-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewLight-Reg.woff2') format('woff2'),
+        url('FuturaNewLight-Reg.woff') format('woff'),
+        url('FuturaNewLight-Reg.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura New';
+    src: url('FuturaNewBold-Reg.eot');
+    src: local('Futura New Bold Reg'), local('FuturaNewBold-Reg'),
+        url('FuturaNewBold-Reg.eot?#iefix') format('embedded-opentype'),
+        url('FuturaNewBold-Reg.woff2') format('woff2'),
+        url('FuturaNewBold-Reg.woff') format('woff'),
+        url('FuturaNewBold-Reg.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
