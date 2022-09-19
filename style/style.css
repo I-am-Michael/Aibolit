@@ -71,7 +71,7 @@ color: white;
 #s2 {
   color: #59443F;
   margin: 0px 284px 150px 284px;
-  height: 1100px;
+  height: 100vh;
 }
 #s2 div {
   box-sizing: border-box
@@ -90,12 +90,35 @@ color: white;
   margin: 150px 0px 206px 0px;
   background: #FBF8F8
 }
-.s3h {
+.s3h2 {
   text-align: center;
+  margin-bottom: 50px;
+  padding-top: 180px;
+}
+.s3h3 {
+  text-align: center;
+  margin-bottom: 50px;
 }
 .history {
-  margin: 0 auto;
-  
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em
+}
+#listen {
+  margin: 35px 0px 100px;
+  display: block;
+  text-align: center;
+}
+
+.specialist {
+  text-align: center;
+  margin-bottom: 35px;
+}
+#all {
+  margin: 35px 0px 100px;
+  display: block;
+  text-align: center;
+  padding-bottom: 205px;
 }
 #s6 {
   background-color: #FFC59E;
