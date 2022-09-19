@@ -71,16 +71,31 @@ color: white;
 #s2 {
   color: #59443F;
   margin: 0px 284px 150px 284px;
+  height: 1100px;
+}
+#s2 div {
+  box-sizing: border-box
 }
 #s2 article {
-  margin: 22px;
   background: #FFFEFE;
-border-radius: 20px;
-
-
+  border-radius: 20px;
+  width: 25%;
+  min-height: 220px;
 }
+.service {
+  
+}
+
 #s3 {
-  margin: 180px 334px 206px 333px;
+  margin: 150px 0px 206px 0px;
+  background: #FBF8F8
+}
+.s3h {
+  text-align: center;
+}
+.history {
+  margin: 0 auto;
+  
 }
 #s6 {
   background-color: #FFC59E;
