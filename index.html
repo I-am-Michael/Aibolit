@@ -21,7 +21,7 @@
   <meta property="og:image:alt" content="selector" />
 
   <link rel="stylesheet" href="./style/reset.css">
-  <link rel="stylesheet" href="./Fonts/Future-new/font.css">
+  <link rel="stylesheet" href="./Fonts/font.css">
   <link href="http://fonts.cdnfonts.com/css/new-century-schoolbook?styles=94889" rel="stylesheet">
   <link rel="stylesheet" href="./style/style.css">
 </head>
@@ -39,10 +39,7 @@
       </ul>
       <label>
       <img src="./imagine/Contacts/Facebook_Places.png" alt="">
-      <select>
-        <option>Волгоград</option>
-        <option>Другой город</option>
-      </select>
+      <button class="font_futura button">Волгоград</button>
     </label>
     </nav>
   </header>
@@ -56,7 +53,7 @@
       <li><a href="">5</a></li>
       <li><a href="">6</a></li>
     </ul>
-    <h1 class="schoolbook" >Айболит<br> круглосуточная<br> ветклиника</h1>
+    <h1>Айболит<br> круглосуточная<br> ветклиника</h1>
     <input type="button" value="Записаться" id="button1">
     <a href=""><img src="./imagine/social_networks.png" alt="Социальные сети"></a>
     <img src="./imagine/cat_dog.png" alt="" height="300">
@@ -275,32 +272,46 @@
             <a href="#" id="reg5">регистрация</a>
     </div>
   </section>
-  <section>
-    <h2>Контакты</h2>
-    <h3>Айболит на Краснополянской</h3>
+  <section id="s7">
+    <div>
+    <h2 class="schoolbook">Контакты</h2>
+    <h3 class="schoolbook">Айболит на Краснополянской</h3>
+    <div class="contact1">
     <img src="./imagine/Contacts/Facebook_Places.png" alt="">
     Дзержинский район,<br>
     ул. Краснополянская, 30<br>
+  </div>
+  <div class="contact2">
     <img src="./imagine/Contacts/Vector.png" alt="">
-    <a href="tel:+78442962292">96 22 92</a><br>
+    <a href="tel:+78442962292">96 22 92</a>
+  </div>
+  <div class="contact3">
     <img src="./imagine/Contacts/ic_clock.png" alt="">
     Круглосуточно
-    <h3>Айболит на Тупака</h3>
+  </div>
+    <h3  class="schoolbook">Айболит на Тулака</h3>
+    <div class="contact1">
     <img src="./imagine/Contacts/Facebook_Places.png" alt="">
     Советский район,<br>
     ул. Карла Маркса, 7<br>
+  </div>
+  <div class="contact2">
     <img src="./imagine/Contacts/Vector.png" alt="">
-    <a href="tel:+78442962292">96 22 92</a><br>
+    <a href="tel:+78442962292">96 22 92</a>
+  </div>
+  <div class="contact3">
     <img src="./imagine/Contacts/ic_clock.png" alt="">
     Круглосуточно
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2629.9153418720634!2d44.476640315636295!3d48.76441297927837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x411aca393f116801%3A0x3fb7ff05cfa1a142!2z0YPQuy4g0JrRgNCw0YHQvdC-0L_QvtC70Y_QvdGB0LrQsNGPLCAzMCwg0JLQvtC70LPQvtCz0YDQsNC0LCDQktC-0LvQs9C-0LPRgNCw0LTRgdC60LDRjyDQvtCx0LsuLCDQoNC-0YHRgdC40Y8sIDQwMDA3NQ!5e0!3m2!1sru!2sua!4v1663004320844!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2629.9153418720634!2d44.476640315636295!3d48.76441297927837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x411aca393f116801%3A0x3fb7ff05cfa1a142!2z0YPQuy4g0JrRgNCw0YHQvdC-0L_QvtC70Y_QvdGB0LrQsNGPLCAzMCwg0JLQvtC70LPQvtCz0YDQsNC0LCDQktC-0LvQs9C-0LPRgNCw0LTRgdC60LDRjyDQvtCx0LsuLCDQoNC-0YHRgdC40Y8sIDQwMDA3NQ!5e0!3m2!1sru!2sua!4v1663004320844!5m2!1sru!2sua" width="50%" height="526" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
   </section>
-  <footer>
-    <a href=""><img src="./imagine/logo.png" alt="Логотип"></a>
-    <h2>Айболит</h2>
-    ветеринарная клиника
-    <a href="#">Политика конфиденциальности в отношении обработки персональных данных</a>
-    <nav>
+  <footer id="footer">
+    <div id="logo_footer"><a href=""><img src="./imagine/logo.png" alt="Логотип"  ></a></div>
+    <h2  class="schoolbook">Айболит</h2>
+    <p>ветеринарная клиника</p>
+    <a href="#"><p class="footnav fl"> Политика<br> конфиденциальности в<br> отношении обработки<br> персональных данных</p></a>
+    <nav class="footnav fl">
       <ul>
         <a href=""><li>Главная</li></a>
         <a href=""><li>Услуги и цены</li></a>
@@ -311,7 +322,7 @@
         <a href=""><li>Онлайн-оплата</li></a>
       </ul>
     </nav>
-    <nav>
+    <nav class="footnav fl">
       <ul>
         <a href=""><li>Отзывы</li></a>
         <a href=""><li>Контакты</li></a>
@@ -321,14 +332,16 @@
         <a href=""><li>Блог</li></a>
       </ul>
     </nav>
-    <a href="#"><img src="./imagine/app_store.png" alt="Скачать в App Store"></a>
-    <a href="#"><img src="./imagine/google-play.png" alt="Скачать в Google Play"></a>
+    <div>
+    <a href="#"><img src="./imagine/app_store.png" alt="Скачать в App Store" class="fl"></a>
+    <a href="#"><img src="./imagine/google-play.png" alt="Скачать в Google Play" class="fl footlast"></a>
     <a href="#"><img src="./imagine/inst.png" alt=""></a>
     <a href="#"><img src="./imagine/fb.png" alt=""></a>
     <a href="#"><img src="./imagine/vk.png" alt=""></a>
     <a href="#"><img src="./imagine/youtube.png" alt=""></a>
     <a href="http://aibolit34.ru" target="_blank" rel="noopener noreferrer">aibolit34.ru</a>
     <a href="mailto:aibolit34@gmail.com">aibolit34@gmail.com</a>
+  </div>
   </footer>
 </body>
 </html>
