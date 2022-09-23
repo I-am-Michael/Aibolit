@@ -7,20 +7,30 @@
 .schoolbook {
   font-family: "SchoolBook";
 }
+.font_futura {
+  font-family: 'Futura New';
+}
+.font_futura2 {
+  font-family: 'Futura New2';
+}
+.h2font {
+  font-family: "SchoolBook";
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+}
 header {
   margin: 65px 80px 130px;
 }
-nav {
+header nav {
   height: 100px;
 }
+
 #logo {
   float: left;
   padding: 19px 10px;
 }
-.font_futura {
-  font-family: 'Futura New';
-  text-transform: uppercase;
-}
+
 header ul {
   color: #C3B9B5;
   text-transform: uppercase;
@@ -40,6 +50,7 @@ color: #FFC59E;
 float: right;
 border: none;
 background-color: rgba(1, 1, 1, 0);
+text-transform: uppercase;
 }
 header label img {
   position: relative;
@@ -50,22 +61,37 @@ header label img {
 header nav a {
   display: inline-block;
   padding: 40px 80px 40px 0px;
+  text-decoration: none;
 }
-label {
+header nav a:hover {
+  color: #59443F;
+}
+header label {
 position: absolute;
   padding: 40px 80px 27px 190px;
 }
-
+header button:hover {
+  color: #59443F;
+  cursor: pointer;
+}
 #s1 {
   margin: 0px 0px 150px 110px;
   position: relative;
+  overflow: hidden;
 }
+
 h1 {
   font-family: 'SchoolBook';
 font-style: normal;
 font-weight: 400;
 font-size: 80px;
 line-height: 110px;
+}
+h3 {
+  font-family: 'SchoolBook';
+  font-weight: 400;
+font-size: 30px;
+line-height: 40px;
 }
 #mainul {
 float: left;
@@ -95,6 +121,7 @@ box-shadow: 0px 4px 20px #FFC59E;
 border-radius: 33.5px;
 background-color: #FFC59E;
 color: white;
+border: none;
 }
 #tel {
   position: absolute;
@@ -110,8 +137,7 @@ color: #59443F;
 #s2 {
   color: #59443F;
   margin: 0px 284px 150px 284px;
-  height: 100vh;
-  
+  overflow: hidden;
   font-weight: 400;
 font-size: 20px;
 line-height: 20px;
@@ -129,15 +155,20 @@ color: #59443F;
 #s2 article {
   background: #FFFEFE;
   border-radius: 20px;
-  width: 25%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+margin: 0px 24px 24px 0px;
+  width: 23%;
   min-height: 220px;
+  font-family: 'font_futura2';
+  font-weight: 400;
+font-size: 20px;
+line-height: 20px;
 }
-.service {
-  
-}
+
 
 #s3 {
   margin: 150px 0px 206px 0px;
+  overflow: hidden;
   background: #FBF8F8
 }
 .s3h2 {
@@ -173,21 +204,36 @@ color: #59443F;
 #s4 {
   width: 100%;
   position: relative;
+  overflow: hidden;
+}
+#s4 h2 {
+  font-family: "SchoolBook";
+  font-weight: 700;
+font-size: 144px;
+line-height: 110px;
+color: #59443F;
+
 }
 #bird {
   margin-left: auto;
   margin-right: auto;
-  width: 10em;
+  text-align: center;
   padding-bottom: 470px;
 }
 #s4 img {
   position: absolute;
-  top: 10px;
-  right: 500px;
+  top: 266px;
+  right: 562px;
+}
+#s4 p {
+  font-family: 'Futura New2';
+font-weight: 400;
+font-size: 80px;
+line-height: 110px;
 }
 #s5 {
 width: 100%;
-height: 1270px;
+overflow: hidden;
 }
 #s5h {
   margin-bottom: 105px;
@@ -199,13 +245,12 @@ height: 1270px;
 }
 #s5 div {
 box-sizing: border-box;
-border
 }
 #s6 {
   width: 100%;
-  background-color:  #FFC59E;
+  background-color: #FFC59E;
   position: relative;
-  height: 1080px;
+  overflow: hidden;
   }
   #soon {
     float: left;
@@ -253,23 +298,28 @@ border
 #reg4 {
   margin: 15px 15px;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #FFC59E;
   border-style: none;
   width: 85%;
   color: white;
+  box-shadow: 0px 4px 20px #c8c6c6;
 }
 #reg5 {
   margin: auto;
   text-decoration: none;
   color: #FFC59E;;
   padding-bottom: 150px;
+  text-transform: uppercase;
 }
 .button-text {
   color: black;
 }
 input::-webkit-input-placeholder {
   color: black
+}
+#s7 {
+  overflow: hidden;
 }
 #s7 div:first-child {
   float: left;
@@ -302,7 +352,7 @@ padding: 21px 126px 23px 296px;
 #footer {
   background-color: #59443F;
   color: white;
-  height: 470px;
+  overflow: hidden;
 }
 #logo_footer{
   width: 90px;

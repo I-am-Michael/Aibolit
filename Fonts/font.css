@@ -10,6 +10,17 @@
   font-style: normal;
 }
 @font-face {
+  font-family: 'Futura New2';
+  src: url('../Fonts/Future-new/FuturaNewMedium-Reg.eot');
+  src: local('Futura New Medium Reg'), local('FuturaNewMedium-Reg'),
+      url('../Fonts/Future-new/FuturaNewMedium-Reg.eot?#iefix') format('embedded-opentype'),
+      url('../Fonts/Future-new/FuturaNewMedium-Reg.woff2') format('woff2'),
+      url('../Fonts/Future-new/FuturaNewMedium-Reg.woff') format('woff'),
+      url('../Fonts/Future-new/FuturaNewMedium-Reg.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
 	font-family: "SchoolBook";
 	src: url('../Fonts/School-book/SchoolBook Regular.ttf');
 	font-weight: normal;
